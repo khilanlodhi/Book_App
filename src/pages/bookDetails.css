@@ -1,0 +1,22 @@
+*{
+    
+}
+.body{
+    justify-content: center;
+    display: flex;
+    margin-top: 5.3rem;
+}
+
+.bookDetail{
+    height: 280px;
+    width: 350px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 8px; 
+}
+.bookDetailTitle{
+    background-color: crimson;
+}
+:hover.bookDetailTitle{
+    background-color: rgba(220, 20, 60, 0.881);
+}

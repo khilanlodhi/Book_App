@@ -1,0 +1,29 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px , 1fr));
+    grid-gap: 20px;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .cards {
+      grid-template-columns: repeat(auto-fill, minmax(180px , 1fr));
+      grid-gap: 10px; 
+    }
+  }
+  
+  .bookTitle {
+    display: grid;
+    grid-template-rows: max-content 200px;
+    background-color: rgba(128, 128, 128, 0.226);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .bookTitle {
+      grid-template-rows: max-content 150px; 
+      border-radius: 6px; 
+    }
+  }
+  
